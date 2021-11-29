@@ -3,4 +3,4 @@
     become: true
     tasks:
     - name: create docker container
-      shell: docker run -d --name batch18_container -p 8090:8080 dockervk23/docker_demo
+      shell: docker run -d --name b27_container -p 8090:8080 dockervk23/b27_demo
